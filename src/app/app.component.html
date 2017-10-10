@@ -14,8 +14,8 @@
     <tr>
       <td>{{ progressObject.points }}</td>
       <td>{{ progressObject.possible  }}</td>
-      <td>{{ progressObject.percent }}</td>
-      <td>{{ progressObject.percent }}</td>
+      <td>{{ progressObject.percent | percent }}</td>
+      <td>{{ progressObject.percent | grade }}</td>
     </tr> 
   </table>
 
@@ -39,6 +39,6 @@
       <td>{{ assignment.assignmentName }}</td>
       <td>{{ assignment.scoredPoints  }}</td>
       <td>{{ assignment.pointsPossible }}</td>
-      <td>{{ assignment.percentage }}</td>
+      <td>{{ assignment.percentage | grade }}</td>
     </tr> 
   </table>

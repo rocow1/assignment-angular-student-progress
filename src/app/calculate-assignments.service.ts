@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {StudentAssignment} from './student-assignment'
-import {ASSIGNMENTS} from './mock-assignments'
+
 
 @Injectable()
 export class CalculateAssignmentsService {

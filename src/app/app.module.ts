@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { CalculateAssignmentsService } from './calculate-assignments.service'
-import { StudentProgressService } from './student-progress.service'
+import { StudentProgressService } from './student-progress.service';
+import { GradePipe } from './grade.pipe'
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GradePipe
   ],
   imports: [
     BrowserModule,
